@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: qq-music-api
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    plan: free
+    healthCheckPath: /login/status

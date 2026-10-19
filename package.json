@@ -1,0 +1,11 @@
+{
+  "name": "qq-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@yakult-green-tea/qq-music-api": "3.3.3"
+  }
+}
